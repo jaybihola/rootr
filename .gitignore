@@ -1,1 +1,42 @@
 .idea
+# Ignore Node.js modules
+ node_modules/
+
+ # Logs
+ logs/
+ *.log
+ npm-debug.log*
+ yarn-debug.log*
+ yarn-error.log*
+
+ # Environment variables
+ .env
+
+ # OS-specific files
+ .DS_Store
+ Thumbs.db
+
+ # IDE-specific files
+ .idea/
+ .vscode/
+ *.swp
+
+ # Build files or compiled JavaScript
+ dist/
+ build/
+
+ # Debug files
+ *.pid
+ *.seed
+
+ # Temporary files
+ tmp/
+ temp/
+ *.tmp
+
+ # Coverage reports
+ coverage/
+
+ # Yarn and package lock
+ yarn.lock
+ package-lock.json
